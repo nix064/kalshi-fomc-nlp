@@ -84,6 +84,18 @@ The project used AWS EC2 for data operations: a `t3.micro` always-on instance fo
 
 All 5 data pipelines, the Snowflake schema design, EC2 deployment, analysis notebooks, and project reports were developed in real-time collaboration with Claude (Anthropic). Every methodological decision was made by the author; Claude assisted with code execution, debugging, and documentation. Estimated 300+ prompts over the course of the semester.
 
+## What's Next
+
+This project finds strong evidence that Kalshi FOMC markets are highly efficient by the final week before an announcement. A natural next step is to test whether that efficiency also holds earlier in the meeting cycle, especially before the market has fully absorbed major macroeconomic releases, Federal Reserve speeches, and changes in rate futures.
+
+Future work could extend the analysis from `T-7` to earlier horizons such as `T-30`, `T-20`, and `T-14`. The central question would be whether prediction-market prices are calibrated probabilities at those horizons, after accounting for bid-ask spreads, fees, liquidity, and contract settlement rules. This would convert the project from a late-window efficiency test into a broader study of how quickly macro prediction markets incorporate public information.
+
+One promising academic direction is cross-market disagreement. Rather than asking whether text sentiment alone can beat Kalshi, future research could compare Kalshi-implied probabilities with Fed funds futures, SOFR futures, economist consensus, macro surprise indexes, and Federal Reserve communication signals. If systematic gaps appear before they close, those gaps could measure how information flows between institutional rates markets and retail-accessible prediction markets.
+
+The research also has practical applications beyond trading the FOMC contracts themselves. Kalshi probabilities can be used as event-driven state variables for equity, rates, credit, FX, and duration-sensitive portfolios. For example, banks, real estate equities, Treasury ETFs, and yield-curve trades may respond differently to expected policy moves versus true surprise components. Even when prediction-market prices are efficient, they may still be valuable for hedging, risk sizing, scenario analysis, and measuring market-implied uncertainty around Federal Reserve decisions.
+
+The main conclusion is therefore not that no signal can ever be extracted. It is that simple NLP sentiment and late-window FOMC expectations are unlikely to outperform Kalshi directly. The more meaningful future contribution is to study earlier horizons, cross-market probability disagreement, liquidity frictions, tail-event pricing, and the use of prediction markets as macro risk inputs across both equity and non-equity assets.
+
 ## Key References
 
 Bernanke, B. S., & Kuttner, K. N. (2005). What explains the stock market's reaction to Federal Reserve policy? *Journal of Finance*, 60(3), 1221-1257.
