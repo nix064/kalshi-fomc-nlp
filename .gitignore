@@ -1,0 +1,33 @@
+# Data: raw/intermediate files are too large for git; see data/README.md.
+data/*
+!data/README.md
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+*.key
+credentials
+secrets
+snowflake_config.json

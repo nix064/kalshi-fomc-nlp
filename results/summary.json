@@ -1,0 +1,114 @@
+{
+  "n_meetings": 23,
+  "signal_col": "kalshi_expected_t7",
+  "demeaned": false,
+  "corr_t7_t1": 0.9993021434197003,
+  "surprise_mean": 0.7608695652173914,
+  "surprise_std": 9.191917849662318,
+  "primary_assets": [
+    "IEI",
+    "KRE"
+  ],
+  "regression": {
+    "IEI_OTC": {
+      "beta_pct_per_bp": 0.00036,
+      "t_hac": 0.047,
+      "p_hac": 0.9626,
+      "R2": 0.0001,
+      "IC": 0.1479,
+      "sig": ""
+    },
+    "KRE_OTC": {
+      "beta_pct_per_bp": -0.03833,
+      "t_hac": -1.57,
+      "p_hac": 0.1165,
+      "R2": 0.02,
+      "IC": 0.0308,
+      "sig": ""
+    },
+    "XLRE_OTC": {
+      "beta_pct_per_bp": -0.02431,
+      "t_hac": -1.485,
+      "p_hac": 0.1375,
+      "R2": 0.0289,
+      "IC": -0.1861,
+      "sig": ""
+    },
+    "TLT_OTC": {
+      "beta_pct_per_bp": -0.00094,
+      "t_hac": -0.062,
+      "p_hac": 0.9502,
+      "R2": 0.0002,
+      "IC": -0.1072,
+      "sig": ""
+    },
+    "SHY_OTC": {
+      "beta_pct_per_bp": -0.00029,
+      "t_hac": -0.075,
+      "p_hac": 0.9404,
+      "R2": 0.0003,
+      "IC": 0.1191,
+      "sig": ""
+    },
+    "IEF_OTC": {
+      "beta_pct_per_bp": -7e-05,
+      "t_hac": -0.006,
+      "p_hac": 0.995,
+      "R2": 0.0,
+      "IC": 0.1111,
+      "sig": ""
+    },
+    "TNX_OTC": {
+      "beta_pct_per_bp": 0.08077,
+      "t_hac": 0.804,
+      "p_hac": 0.4216,
+      "R2": 0.0171,
+      "IC": 0.1151,
+      "sig": ""
+    }
+  },
+  "portfolio": {
+    "IEI": {
+      "sharpe": 0.031,
+      "ci_lo": -0.993,
+      "ci_hi": 1.262,
+      "ci_excludes_zero": false
+    },
+    "KRE": {
+      "sharpe": -0.618,
+      "ci_lo": -1.411,
+      "ci_hi": 0.851,
+      "ci_excludes_zero": false
+    },
+    "XLRE": {
+      "sharpe": -0.586,
+      "ci_lo": -1.383,
+      "ci_hi": 0.854,
+      "ci_excludes_zero": false
+    },
+    "TLT": {
+      "sharpe": -0.038,
+      "ci_lo": -1.138,
+      "ci_hi": 1.165,
+      "ci_excludes_zero": false
+    },
+    "SHY": {
+      "sharpe": -0.049,
+      "ci_lo": -1.148,
+      "ci_hi": 1.113,
+      "ci_excludes_zero": false
+    },
+    "IEF": {
+      "sharpe": -0.004,
+      "ci_lo": -1.003,
+      "ci_hi": 1.303,
+      "ci_excludes_zero": false
+    },
+    "TNX": {
+      "sharpe": 0.576,
+      "ci_lo": -0.777,
+      "ci_hi": 1.248,
+      "ci_excludes_zero": false
+    }
+  }
+}
