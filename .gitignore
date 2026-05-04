@@ -31,3 +31,6 @@ Thumbs.db
 credentials
 secrets
 snowflake_config.json
+
+# Local-only research notes
+NEXT_STEPS_HANDOFF.md
