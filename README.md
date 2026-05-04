@@ -42,8 +42,7 @@ We applied Loughran-McDonald dictionary signals, fine-tuned transformer classifi
 │   ├── 01_phase1_lm_signal.ipynb
 │   ├── 02_phase1_kalshi_backtest.ipynb
 │   ├── 03_phase2_transformers.ipynb
-│   ├── 04_phase3_surprise_signal.ipynb
-│   └── ft370_analysis_s1_s4.ipynb
+│   └── 04_phase3_surprise_signal.ipynb
 ├── pipelines/                        # Data collection, scoring, and model-assessment scripts
 ├── report/                           # Final report documents, if present
 └── results/                          # Committed Phase 3 result tables and JSON summaries
@@ -61,7 +60,6 @@ We applied Loughran-McDonald dictionary signals, fine-tuned transformer classifi
 | `02_phase1_kalshi_backtest.ipynb` | Tests Kalshi market signal calibration, portfolio construction, and backtest diagnostics for Phase 1. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nix064/kalshi-fomc-nlp/blob/main/notebooks/02_phase1_kalshi_backtest.ipynb) |
 | `03_phase2_transformers.ipynb` | Fine-tunes and evaluates transformer classifiers, including domain-adapted FinBERT-style FOMC sentiment models. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nix064/kalshi-fomc-nlp/blob/main/notebooks/03_phase2_transformers.ipynb) |
 | `04_phase3_surprise_signal.ipynb` | Implements the Bernanke-Kuttner surprise design and tests whether Kalshi residual surprises predict asset returns. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nix064/kalshi-fomc-nlp/blob/main/notebooks/04_phase3_surprise_signal.ipynb) |
-| `ft370_analysis_s1_s4.ipynb` | Consolidated analysis notebook covering sections S1-S4 of the project workflow. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nix064/kalshi-fomc-nlp/blob/main/notebooks/ft370_analysis_s1_s4.ipynb) |
 
 ## Data Access
 
