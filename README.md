@@ -1,6 +1,5 @@
-# kalshi-fomc-nlp
-
-**Can a Computer Read the Fed? NLP, Prediction Markets, and FOMC Informational Efficiency**
+# Can a Computer Read the Fed? 
+**NLP, Prediction Markets, and FOMC Informational Efficiency**
 
 ![Show Image](figures/fig13_phase3_redesign.png)
 
